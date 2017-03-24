@@ -1,3 +1,3 @@
 # Artsite
 Personal bootstrap website project.  
-Displays a few drawings.  
+Work in progress: http://drift.getforge.io/
