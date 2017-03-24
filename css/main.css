@@ -281,16 +281,17 @@ a:hover, a:focus {
 /* ==========================================================================
    Main styles
    ========================================================================== */
+body{
+    background-color: black;
+}
 header {
-  background-image: url(../img/meltdown.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 0% 25%;
+  background: url(../img/meltdown.png);
   width: 100%;
-  padding: 20px 100px 60px 10px;
+  padding: 20px 10px 60px 10px;
   height: 100vh;
   overflow: hidden;
   background-size: cover;
+  background-position: 30% 20%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
