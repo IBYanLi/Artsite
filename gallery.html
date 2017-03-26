@@ -12,21 +12,19 @@
     <title>Gallery</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Styles -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/3-col-protfolio.css">
+
 
     <link href="https://fonts.googleapis.com/css?family=Jim+Nightshade" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900|Montserrat:400,700' rel='stylesheet' type='text/css'>
 
     <script src="js/modernizr-2.7.1.js"></script>
-    <link href="css/lightbox.css" rel="stylesheet">
-    <script src="js/lightbox.js"> </script>
 
 
 </head>
@@ -43,9 +41,11 @@
                 </section>
             </div>
             <div class="col-xs-6 signin text-right navbar-nav">
-                <a href=/gallery.html" class="scroll">Gallery</a>
+                <a href="home.html">Home</a>
                 &nbsp; &nbsp;
-                <a href="/index.html">Contact</a>
+                <a href="gallery.html">Gallery</a>
+                &nbsp; &nbsp;
+                <a href="index.html">Contact</a>
             </div>
         </div>
     </div>
@@ -60,23 +60,76 @@
                 </h1>
             </div>
         </div>
-        <!-- /.row -->
+        <!--modals-->
+    <div id="waterButton" class="modal fade" role="dialog">
+        <div class="modal-dialog">
 
+            <!-- Modal content-->
+            <div class="modal-content">
+                <img src="img/water.jpg" alt="water" style="width:600px;" >
+            </div>
+
+        </div>
+    </div>
+    <div id="calendarButton" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <img src="img/calendar.jpg" alt="calendar" style="width:800px;" >
+            </div>
+        </div>
+    </div>
+    <div id="alfonseButton" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <img src="img/alfonse.png" alt="alfonse" style="width:600px;" >
+            </div>
+        </div>
+    </div>
+    <div id="blackButton" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <img src="img/black.png" alt="black" style="width:800px;" >
+            </div>
+        </div>
+    </div>
+    <div id="winterButton" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <img src="img/winter.png" alt="winter" style="width:500px;" >
+            </div>
+        </div>
+    </div>
+    <div id="edgeButton" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <img src="img/edge.png" alt="edge" style="width:500px;" >
+            </div>
+        </div>
+    </div>
         <!-- Projects Row -->
         <div class="row">
+
             <div class="col-sm-4 pricing-container wow fadeInUp">
-                <a href="#">
-                    <img class="img-circle center-block" src="img/water.jpg" alt="">
+                <img class="img-circle center-block" src="img/water.jpg" alt="" data-toggle="modal"  data-target="#waterButton">
                 </a>
             </div>
             <div class="col-md-4 pricing-container wow fadeInUp">
-                <a href="#">
-                    <img class="img-circle center-block" src="img/calendar.jpg" alt="">
+                <img class="img-circle center-block" src="img/calendar.jpg" alt="" data-toggle="modal"  data-target="#calendarButton">
                 </a>
             </div>
             <div class="col-md-4 pricing-container wow fadeInUp">
-                <a href="#">
-                    <img class="img-circle center-block" src="img/alfonse.png" alt="">
+                <img class="img-circle center-block" src="img/alfonse.png" alt="" data-toggle="modal"  data-target="#alfonseButton">
+
                 </a>
             </div>
         </div>
@@ -85,20 +138,19 @@
         <!-- Projects Row -->
         <div class="row">
             <div class="col-md-4 pricing-container wow fadeInUp">
-                <a href="#">
-                    <img class="img-circle center-block" src="img/black.png" alt="">
+                <img class="img-circle center-block" src="img/black.png" alt="" data-toggle="modal"  data-target="#blackButton">
+
                 </a>
             </div>
             <div class="col-md-4 pricing-container wow fadeInUp">
-                <a href="#">
-                    <img class="img-circle center-block" src="img/winter.png" alt="">
+                <img class="img-circle center-block" src="img/winter.png" alt="" data-toggle="modal"  data-target="#winterButton">
                 </a>
             </div>
             <div class="col-md-4 pricing-container wow fadeInUp">
-                <a href="#">
-                    <img class="img-circle center-block" src="img/edge.png" alt="">
+                <img class="img-circle center-block" src="img/edge.png" alt="" data-toggle="modal"  data-target="#edgeButton">
                 </a>
             </div>
+        </div>
         </div>
 
         <!-- Javascript
@@ -107,8 +159,7 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>
         <script src="js/wow.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.js"></script>
         <script src="js/main.js"></script>
-
 </body>
 </html>
